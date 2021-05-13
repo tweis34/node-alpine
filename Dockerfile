@@ -1,4 +1,4 @@
-FROM node:current-alpine3.13
+FROM node:14-alpine
 
 RUN \
   echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories \
